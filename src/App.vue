@@ -6,6 +6,7 @@ export default defineComponent({
   name: "App",
   setup() {
     const store = useStore();
+    // comment
 
     return {
       message: store.getters.getMessage,
